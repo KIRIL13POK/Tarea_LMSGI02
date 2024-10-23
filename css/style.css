@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(231, 219, 219);
+    
+    font-family: 'Lobster', cursive;
+}
+/*Encabezado*/
+.encabezado__titulo h1{
+    text-align: center;
+    font-size: 7rem;
+    color: rgb(173, 122, 45);
+}
+
+.encabezado__img img {
+    width: 50%;
+    /* Ajusta el ancho al 50% del contenedor */
+    height: auto;
+    /* Mantén la proporción de la imagen */
+    display: block;
+    /* Para eliminar posibles espacios extra debajo de la imagen */
+    margin: 0 auto;
+    /* Centrar la imagen horizontalmente */
+    border-radius: 1.7rem ;
+}
+
+/*Ingredientes*/
+.ingredientes{
+    margin-top: 3rem;
+    
+}
+
+
+
+.ingredientes__img img{
+    width: 50%;
+    /* Ajusta el ancho al 50% del contenedor */
+    height: auto;
+    /* Mantén la proporción de la imagen */
+    display: block;
+    /* Para eliminar posibles espacios extra debajo de la imagen */
+    margin: 0 auto;
+    /* Centrar la imagen horizontalmente */
+    border-radius: 1.7rem;
+
+}
+
+/*Proceso*/
+.proceso__img img{
+    width: 50%;
+    /* Ajusta el ancho al 50% del contenedor */
+    height: auto;
+    /* Mantén la proporción de la imagen */
+    display: block;
+    /* Para eliminar posibles espacios extra debajo de la imagen */
+    margin: 0 auto;
+    /* Centrar la imagen horizontalmente */
+    border-radius: 1.7rem;
+}
