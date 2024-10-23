@@ -11,9 +11,8 @@ body{
 }
 
 .encabezado__img img {
-    width: 50%;
-    /* Ajusta el ancho al 50% del contenedor */
-    height: auto;
+    width: 19rem;
+    height: 13rem;
     /* Mantén la proporción de la imagen */
     display: block;
     /* Para eliminar posibles espacios extra debajo de la imagen */
@@ -22,18 +21,26 @@ body{
     border-radius: 1.7rem ;
 }
 
+.contenedor-flex {
+    display: flex;
+    flex-direction: column;
+
+}
 /*Ingredientes*/
+
 .ingredientes{
     margin-top: 3rem;
     
 }
-
+.ingredientes__img {
+    align-items: flex-end;
+}
 
 
 .ingredientes__img img{
-    width: 50%;
-    /* Ajusta el ancho al 50% del contenedor */
+    width: 19rem;
     height: auto;
+    
     /* Mantén la proporción de la imagen */
     display: block;
     /* Para eliminar posibles espacios extra debajo de la imagen */
@@ -44,9 +51,13 @@ body{
 }
 
 /*Proceso*/
+.proceso {
+    padding-bottom: 5rem;
+
+}
 .proceso__img img{
-    width: 50%;
-    /* Ajusta el ancho al 50% del contenedor */
+    width: 20rem;
+    
     height: auto;
     /* Mantén la proporción de la imagen */
     display: block;
@@ -55,3 +66,8 @@ body{
     /* Centrar la imagen horizontalmente */
     border-radius: 1.7rem;
 }
+
+.proceso__img {
+    align-items: flex-end;
+}
+
