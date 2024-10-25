@@ -1,0 +1,111 @@
+body{
+    background-color:#e0f7fa;
+}
+
+
+
+header{
+    border: 0.2rem solid #781e1e;
+    border-radius: 2rem;
+
+    background-color: beige;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.encabezado__texto{
+    padding-left: 1rem;
+    
+}
+.encabezado__texto h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(6, 118, 25);
+    font-weight: 400;
+    font-size: 3rem;
+    
+}
+.encabezado__texto p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 2rem;
+   font-weight: 500;
+
+    text-align: center;
+          
+}
+
+
+
+
+
+/*Estudios*/
+
+.vista{
+    background-color: beige;
+    border: 0.2rem solid #781e1e;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+
+    padding: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.letras_h2{
+ font-family: 'Poppins', sans-serif;
+ color: blue;
+}
+
+/*Tabla estudios*/
+
+.estudios__tabla table {
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    border-collapse: collapse;
+    /* Elimina el espacio entre bordes */
+    margin-bottom: 20px;
+    /* Añade espacio debajo de la tabla */
+}
+
+.estudios__tabla th,
+.estudios__tabla td {
+    padding: 15px 10px;
+    /* Añade espacio dentro de las celdas */
+    border: 0.1rem solid #781e1e;
+    /* Añade bordes suaves */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+}
+
+.estudios__tabla th {
+    background-color: #4db3df;
+    /* Fondo claro para el encabezado */
+    font-weight: bold;
+    /* Negrita para el encabezado */
+}
+
+/* Estilos para las imágenes de estudios */
+.contenedorFlex{
+    display: flex;
+    justify-content: center;/* Distribuye los elementos con espacio entre ellos */
+    align-items: center;/* Centra los elementos verticalmente */
+    gap: 2rem;
+    flex-wrap: wrap;/* Permite que los elementos pasen a una nueva línea si es necesario */
+    
+    
+}
+
+.contenedorFlex img {
+    width: 300px;
+    /* Asegura que todas tengan el mismo tamaño si es necesario */
+    height: 200px;
+    /* Mantiene la proporción */
+    border: 0.3rem solid #4db3df;;
+    border-radius: 2.9rem;
+}
+
