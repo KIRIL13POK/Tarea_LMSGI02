@@ -1,0 +1,51 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('../img/viajes_2.webp');
+    background-size: cover;
+    /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center;
+    /* Centra la imagen */
+}
+
+
+.contenedorFlexbox{
+display: flex;
+
+
+justify-content: center;  
+align-items: center;
+/*hace que el contenedor ocupe toda la altura de la ventana,lo cual permite centrar el contenido tanto vertical como horizontalmente.*/   
+height: 100vh;
+   
+    
+}
+
+.contenedor_formulario{
+    background-color: rgb(239, 236, 234);
+
+    border: 0.5rem solid rgb(30, 141, 149);
+    border-radius:3rem;
+    
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+textarea {
+    width: 90%;
+    /* Ocupa todo el ancho del contenedor */
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    /* Permite que el usuario ajuste la altura, pero no el ancho */
+}
+
+input,
+select,
+textarea{
+    margin-bottom: 0.3rem;
+}
