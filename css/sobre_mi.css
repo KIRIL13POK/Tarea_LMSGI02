@@ -1,22 +1,32 @@
-body{
-    background-color:#e0f7fa;
+*{
+    box-sizing: border-box;
 }
 
-
+body{
+    background-color:#e0f7fa;
+    
+}
 
 header{
-    border: 0.2rem solid #781e1e;
+
+    width: 95%;
+
+    border: 0.1rem solid #781e1e;
     border-radius: 2rem;
 
     background-color: beige;
 
+    margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
    
     padding-bottom: 1.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
+
 .encabezado__texto{
     padding-left: 1rem;
     
@@ -40,20 +50,24 @@ header{
 
 
 
-
-
-/*Estudios*/
-
 .vista{
+   
     background-color: beige;
-    border: 0.2rem solid #781e1e;
+    border: 0.1rem solid #781e1e;
     border-radius: 2rem;
-    margin-top: 1.5rem;
+    
+
+    width: 90%;
 
     padding: 2rem;
     padding-bottom: 1.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    
 }
 
 .letras_h2{
@@ -61,8 +75,8 @@ header{
  color: blue;
 }
 
-/*Tabla estudios*/
 
+/*Tabla estudios*/
 .estudios__tabla table {
     width: 100%;
     /* Ocupa todo el ancho disponible */
@@ -89,10 +103,10 @@ header{
     /* Negrita para el encabezado */
 }
 
-/* Estilos para las imágenes de estudios */
+
 .contenedorFlex{
     display: flex;
-    justify-content: center;/* Distribuye los elementos con espacio entre ellos */
+    justify-content: space-around;/* Distribuye los elementos con espacio entre ellos */
     align-items: center;/* Centra los elementos verticalmente */
     gap: 2rem;
     flex-wrap: wrap;/* Permite que los elementos pasen a una nueva línea si es necesario */
@@ -107,5 +121,57 @@ header{
     /* Mantiene la proporción */
     border: 0.3rem solid #4db3df;;
     border-radius: 2.9rem;
+}
+@media (max-width: 350px) {
+
+    .estudios__tabla table {
+            width: 90%;
+            /* Ajusta el ancho de la tabla para que no ocupe todo el espacio */
+            margin: 0 auto;
+            /* Centra la tabla */
+            font-size: 0.8rem;
+            /* Reduce el tamaño de fuente */
+        }
+    
+        .estudios__tabla th,
+        .estudios__tabla td {
+            padding: 5px;
+            /* Reduce el padding para que las celdas no sean tan altas */
+        }
+
+
+    .contenedorFlex img {
+        width: 80%;
+        /* Ocupa el 80% del ancho del contenedor */
+        height: auto;
+        /* Mantiene la proporción */
+        margin-top: 1.5rem;
+    }
+        
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 0.2rem solid #4db3df;
+    
+}
+
+.footer a {
+    color: #4db3df;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 5px 0;
 }
 
